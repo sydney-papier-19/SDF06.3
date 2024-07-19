@@ -92,16 +92,21 @@ img {
 .profile-real-name,
 .profile-stat-count,
 .profile-edit-btn {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
 
 .gallery {
- display: flex;
- flex-wrap: wrap;
- margin: -1rem -1rem ;
- padding-bottom: 3rem;
+
+ display: inline-grid;
+ grid-template-rows: 50px 50px auto;
+ grid-template-columns: 50px 50px 100px;
+ grid-auto-rows: 50px;
+ align-content:normal;
+ justify-items:space-around;
+ gap: 20px;
+ padding: 3rem;
  
 }
 
@@ -111,5 +116,10 @@ img {
     margin: 1rem;
     color:#fff;
     cursor:pointer;
+}
 
+.gallery-item{
+    top:0;
+    width:100px;
+    height:100px;
 }
