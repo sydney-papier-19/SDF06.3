@@ -184,3 +184,9 @@ text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
    margin: 0 auto;
    animation: loader 500ms linear infinite; 
 }
+
+@keyframes loader{
+    to{
+        transform:rotate(360deg)
+    }
+}
