@@ -13,11 +13,23 @@
 body {
     font-family: "Open Sans", Arial, sans-serif;
     min-height: 100vh;
-    background-color: #fafafa;
+    background-color: #dfd9d9;
     color: #262626;
     padding-bottom: 3rem;
 }
 
 img {
     display: block;
+}
+
+.profile-image{
+    float:left;
+    width:calc(33.33%-1rem);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 3rem;
+}
+.profile-image img{
+    border-radius: 50%;
 }
