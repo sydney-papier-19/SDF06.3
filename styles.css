@@ -175,3 +175,12 @@ text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
     align-items: center;
 }
 
+.loader{
+   width: 5rem;
+   height: 5rem;
+   border: 0.6rem solid #606060;
+   border-bottom-color:transparent;
+   border-radius: 50%;
+   margin: 0 auto;
+   animation: loader 500ms linear infinite; 
+}
