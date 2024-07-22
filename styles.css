@@ -165,6 +165,10 @@ font-size: 2.5rem;
 text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);   
 }
 
+.fa-clone,
+.fa-comment {
+    transform:rotateY('180deg');
+}
 
 .gallery-image {
     width:100%;
@@ -189,4 +193,27 @@ text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
     to{
         transform:rotate(360deg)
     }
+}
+
+@media  screen and (max-width:40rem) {
+    .profile{
+        display:flex;
+        flex-wrap: wrap;
+        padding: 4rem 0;
+    }
+
+    .profile::after{
+        display: none;
+    }
+    .profile-image,
+    .profile-user-settings,
+    .profile-stats,
+    .profile-bio {
+        float:none;
+        width:auto;
+    }
+    .profile-image img{
+        width:7.7rem;
+    }
+    
 }
