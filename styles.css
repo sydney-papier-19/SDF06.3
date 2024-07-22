@@ -16,7 +16,6 @@ body {
     background-color: #ffffff;
     color: #171616;
     padding-bottom: 3rem;
-   
 }
 
 img {
@@ -43,15 +42,17 @@ img {
     float:left;
     width:calc(33.33%-1rem);
     display: flex;
-   
     justify-content: center;
     align-items:center;
     margin-right: 3rem;
-   
+ 
+    
 
 }
 .profile-image img{
     border-radius: 60%;
+    border-width: 30px;
+    border: #272525 solid 5px;
 }
 
 .profile-user-settings,
